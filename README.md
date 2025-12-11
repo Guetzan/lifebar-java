@@ -11,3 +11,5 @@ Então se um jogador tiver uma vida total de 2000, mas atualmente estiver apenas
 [■ ■ ■ ■             ]
 </pre>
 Apesar do jogador ter 857 pontos de vida completos, apenas quatro quadrados foram impressos, pois a variável barSize, responsável por limitar a quantidade desses quadrados, foi definida com um valor de 10, sendo assim, sempre será impresso no máximo 10 "quadrados de vida", independente da vida máxima do jogador. Isso porque, 857 é aproximadamente 4/10 de 2000.
+
+<strong>obs: planejo refatorar esse código assim que aprender sobre OOP</strong>
