@@ -34,7 +34,7 @@ public class Lifebar
         }
 
         //em caso do jogador estar com vida incompleta, irá preencher o resto da barra com espaços vazios
-        if(playerCurrentLife < (playerLife - (playerLife / 10))) {
+        if(playerCurrentLife < (playerLife - (playerLife / barSize))) {
             int missingLifePoints = barSize - lifePointsPrinted;
     
             if(missingLifePoints > 0) {
