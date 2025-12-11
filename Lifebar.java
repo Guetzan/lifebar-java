@@ -27,8 +27,8 @@ public class Lifebar
             }
         }
 
-        //evita que a barra fique vazia caso o jogador esteja com vida menor que (playerLife / barSize)
-        if(playerCurrentLife < (playerLife / barSize)) {
+        //evita que a barra fique vazia caso o jogador esteja com vida menor que (playerLife / barSize), mas não morto
+        if(playerCurrentLife < (playerLife / barSize) && playerCurrentLife > 0) {
             System.out.print("■");
             lifePointsPrinted = 1;
         }
